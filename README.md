@@ -2,8 +2,8 @@
 https://nationalmap.gov/ustopo/
 
 SETUP:
--Change "searchfilepath" to the location of your CSV download lists.
--Change "OUTPUTFILEPATH" to the location you would like the maps saved to.  By default folders are created for each state.
+1) Change "searchfilepath" to the location of your CSV download lists.
+2) Change "OUTPUTFILEPATH" to the location you would like the maps saved to.  By default folders are created for each state.
 
 This python script downloads the free US Topo maps from a CSV list.  These CSV lists can be downloaded from this website: 
 
