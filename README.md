@@ -13,4 +13,4 @@ Each search from this website can be exported to CSV.
 
 This script will read those lists from the "searchfilepath" file path specified in the script and download each map.
 
-The script is written to only download the latest maps (['Version'] == 'Current') and only the states given in the name of the CSV file ('Primary_State'] == inputfilestatename).  Other states are listed in the CSV file as well since there is overlap accross state lines.
+The script is written to only download the latest maps (['Version'] == 'Current') and only the states given in the FILENAME of the CSV file ('Primary_State'] == inputfilestatename).  So only the California maps from "topomaps_CA.csv" would be downloaded and boarder states like Arizona would be ignored.  Other states are listed in the CSV file as well since there is overlap accross state lines.
