@@ -37,7 +37,7 @@ try:
             inputfilestatename = inputfilestatename[1].split(".")
             inputfilestatename = inputfilestatename[0]
             print(inputfilestatename)
-            OUTPUTFILEPATH = "/home/pi/Documents/Code/Topo/MapsbyState/" + str(inputfilestatename) + "/"
+            OUTPUTFILEPATH = "/home/pi/Desktop/BOXYtemp/Maps/" + str(inputfilestatename) + "/"
             print(OUTPUTFILEPATH)
             if not os.path.exists(OUTPUTFILEPATH):
                 os.makedirs(OUTPUTFILEPATH)
